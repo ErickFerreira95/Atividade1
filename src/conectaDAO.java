@@ -24,7 +24,7 @@ public class conectaDAO {
         try {
         
             conn = DriverManager.getConnection(
-                            "jdbc:mysql://localhost/atividade2uc11?autoReconnect=true&useSSL=false",
+                            "jdbc:mysql://localhost/uc11",
                             "root", 
                             "Picoricos2Nina."
                     );
